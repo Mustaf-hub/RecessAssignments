@@ -21,7 +21,7 @@ def quotient(x, y):
 while True:
     print()
     print("=" * 40)
-    print("        MENU")
+    print("        CALCULATOR MENU")
     print("=" * 40)
     print("  1. Addition")
     print("  2. Subtraction")
@@ -56,7 +56,7 @@ while True:
     elif choice == "3":
         result = multiplication(num1, num2)
         print(f"  {num1} * {num2} = {result}")
-        
+
     elif choice == "4":
         result = quotient(num1, num2)
         print(f"  {num1} / {num2} = {result}")
