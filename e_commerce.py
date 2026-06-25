@@ -101,12 +101,12 @@ def run_price_calculator():
 
 	print("\nCalculation summary")
 	print(f"Subtotal: {result['subtotal']:.2f}")
-	print(f"Subtotal discount: {result['subtotal_discount_rate'] * 100:.0f}%")
-	print(f"Coupon discount: {result['coupon_discount_rate'] * 100:.0f}%")
-	print(f"Discount amount: {result['discount_amount']:.2f}")
-	print(f"Tax rate: {result['tax_rate'] * 100:.0f}%")
-	print(f"Tax amount: {result['tax_amount']:.2f}")
-	print(f"Final price: {result['final_price']:.2f}")
+	print(f"Subtotal discount: {result['subtotal discount rate'] * 100:.0f}%")
+	print(f"Coupon discount: {result['coupon discount rate'] * 100:.0f}%")
+	print(f"Discount amount: {result['discount amount']:.2f}")
+	print(f"Tax rate: {result['tax rate'] * 100:.0f}%")
+	print(f"Tax amount: {result['tax amount']:.2f}")
+	print(f"Final price: {result['final price']:.2f}")
 	print(message)
 
 
