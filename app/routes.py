@@ -1,6 +1,11 @@
-from flask import render_template
+from flask import redirect, render_template, url_for
 
 from app import app
+
+
+@app.route('/')
+def index():
+    return redirect(url_for('signin'))
 
 @app.route('/signin')
 def signin():
